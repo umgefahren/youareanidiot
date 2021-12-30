@@ -1,0 +1,20 @@
+{
+  "name": "youareanidiot",
+  "version": "1.0.0",
+  "description": "This is a reimplementation of the youaranidiot.org \"virus\" without flash in modern TypeScript. It uses material icons and is not as static, but I appreciate contributions to bring it closer to the original.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umgefahren/youareanidiot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umgefahren/youareanidiot/issues"
+  },
+  "homepage": "https://github.com/umgefahren/youareanidiot#readme"
+}
