@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>You are an idiot</title>
+    <!-- Insert favicon -->
+    <link rel="icon" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div id="allDiv" class="allDiv">
+        <div id="backgroundDiv" class="backgroundClass">
+            <h1 class="heading" id="heading">you are an idiot</h1>
+            <div class="icons">
+                <span class="material-icons-round icon" id="icon1">
+                    sentiment_satisfied_alt
+                </span>
+                <span class="material-icons-round icon" id="icon2">
+                    sentiment_satisfied_alt
+                </span>
+                <span class="material-icons-round icon" id="icon3">
+                    sentiment_satisfied_alt
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <style>
+        .heading {
+            text-align: center;
+            font-size: 15vh;
+            
+            margin-top: 0%;
+            padding-top: 15%;
+            padding-bottom: 0%;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .material-icons-round.icon {
+            margin-bottom: 5%;
+            margin-left: 7%;
+            margin-right: 7%;
+            font-size: 23vh;
+        }
+
+        .backgroundClass {
+            background-color: white;
+            height: calc(100% - 1em);
+            margin: 0.5em;
+        }
+
+        
+        .allDiv {
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            background-color: black;
+            
+        }
+        
+    </style>
+
+</body>
+
+</html>
