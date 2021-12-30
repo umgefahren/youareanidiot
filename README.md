@@ -4,3 +4,6 @@ This is a reimplementation of the youaranidiot.org "virus" without flash in mode
 to the original.
 
 For some reasons it only really works on Firefox and Waterfox.
+
+# See it in action
+https://youareanidiot-v7qn3.ondigitalocean.app/
