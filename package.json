@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/umgefahren/youareanidiot/issues"
   },
-  "homepage": "https://github.com/umgefahren/youareanidiot#readme"
+  "homepage": "https://github.com/umgefahren/youareanidiot#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
 }
